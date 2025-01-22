@@ -1,0 +1,10 @@
+.cover-image {
+  background-image: url("../images/Cover_Image.webp");
+  background-size: cover;
+  background-position: center;
+  height: 459px;
+  display: flex;
+}
+.line{
+    line-height: 33.6px;
+}
