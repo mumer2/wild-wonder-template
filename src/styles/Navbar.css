@@ -8,3 +8,21 @@
 .line{
     line-height: 33.6px;
 }
+marquee{
+  padding: 15px 0 15px 0;
+}
+marquee span{
+  font-size: 20px;
+  display: block;
+}
+marquee span img{
+  width: 40px;
+  height: 40px;
+}
+marquee span h1{
+  font-size: 32px;
+  font-weight: 500;
+  word-spacing: 0px;
+  color: #2A317D;
+  font-family: "Barlow-Condesed", sans-serif;
+}
