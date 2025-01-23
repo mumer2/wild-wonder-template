@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import { Navbar } from './components/Navbar';
 import { Section1 } from './components/Section1';
+import { Section2 } from './components/Section2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Header/>
     <Navbar/>
     <Section1/>
+    <Section2/>
   </React.StrictMode>
 );
 

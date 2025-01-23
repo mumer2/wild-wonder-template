@@ -1,5 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/Section1Text.css';
+import t2 from '../images/t2.avif';
+import t3 from '../images/t3.webp';
+import t4 from '../images/t4.avif';
+import t5 from '../images/t5.webp';
+import t6 from '../images/t6.avif';
+import t7 from '../images/t7.avif';
 
 export const Section1 = () => {
   const textPathRef = useRef(null);
@@ -69,7 +75,43 @@ export const Section1 = () => {
       </div>
     </div>
 
-    <div className='bg-[#C2EAF3] w-[100%] h-[500px] top-20'>
+    <div className='bg-[#C2EAF3] w-[100%] h-[100%] mt-20'>
+
+        <div className='flex justify-center items-center'>
+            <h1 className='mt-[120px] text-[60px] uppercase font-semibold text-[#2A317D]'>Featured In</h1>
+            </div>
+
+            <div>
+            <div class="grid grid-cols-3 gap-8 p-20 mx-[100px] items-center justify-center">
+
+                <div className='w-[110px] justify-center items-center'>
+                    <img src={t2} alt="" />
+                    
+                </div>
+                <div className='w-[110px] mx-20 justify-center items-center'>
+                <img src={t4} alt="" />
+                
+                </div>
+                <div className='w-[130px] mx-[150px] justify-center items-center'>
+                <img src={t6} alt="" />
+                
+                </div>
+
+                <div className='w-[120px] justify-center items-center'>
+                    
+                    <img src={t3} alt="" />
+                </div>
+                <div className='w-[340px] h-[28px] justify-center items-center'>
+                
+                <img src={t5} alt="" />
+                </div>
+                <div className='w-[290px] h-[78px] mx-20 justify-center items-center'>
+                
+                <img src={t7} alt="" />
+                </div>
+
+                </div>
+            </div>
 
     </div>
 
